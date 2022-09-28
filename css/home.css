@@ -1,0 +1,26 @@
+
+
+
+/* Home SEction */
+
+#home{
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    width: 90%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home>div{
+    
+    height: auto;
+    width: 48%;
+    border: 1px solid green;
+}
+#home>.right_carousal{
+    
+    /* width: 50%; */
+    /* margin: auto; */
+}
