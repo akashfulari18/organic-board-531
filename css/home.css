@@ -19,8 +19,20 @@
     width: 48%;
     border: 1px solid green;
 }
-#home>.right_carousal{
+
+.left_product{
+    display: flex;
+    flex-direction: column;
     
-    /* width: 50%; */
-    /* margin: auto; */
+}
+.left_product>div{
+    height: 300px;
+    width: 100%;
+    border:1px solid black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.deals_product{
+    display: flex;
 }
