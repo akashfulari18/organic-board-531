@@ -168,11 +168,53 @@ color: #1c7dfd;
     text-align: center;
     position: relative;
     top: 60%;
-   
+ /* z-index: -1; */
     transform: translateY(-50%);
     right: 10%;
     cursor: pointer;
     z-index: 2;
+}
+
+#saveBig{
+    background-color: rgb(250, 247, 247);
+    height: 200px;
+    width: 15%;
+    z-index: 4;
+    position: absolute;
+    visibility: hidden;
+    margin: 10px;
+    opacity: 5;
+    padding: 10px;
+}
+#saveBig>div>span{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.in-save{
+    display: grid;
+}
+.in-save-2{
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+
+.in-save-2 img{
+    height: 100%;
+    width: 100%;
+}
+.in-save-2>div{
+    /* border: 1px solid rgb(6, 6, 6); */
+    height: auto;
+    width: 45%;
+    margin: auto;
+
+}
+.saveImg{
+    display: grid;
+    gap: 5px;
 }
 
 
