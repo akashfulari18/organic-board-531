@@ -5,8 +5,175 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./day-3-css/mid.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<style>
+   .new-for-you{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+   }
+   .new-for-you>p{
+    font-size: 30px;
+    font-weight: bold;
+   }
+
+
+   .new-for-you>.new-4-you{
+    display: flex;
+    justify-content: space-between;
+   }
+   .new-4-you>div:nth-child(1){
+    height: auto;
+    width: 100%;
+    
+    /* margin: auto; */
+    border: 1px solid rgb(21, 0, 255);
+   }
+
+   .new-4-you>div>img{
+    height: 100%;
+    width: 100%;
+   }
+   .carusel{
+    display: flex;
+   }
+   .caro{
+    display: flex;
+   }
+   </style>
 </head>
 <body>
-    this is index
+    <div id="container"></div>
+     
+      <div class="top-mid">
+        <div class="top-mid-right">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://img.gkbcdn.com/bn/2209/740x670-633264402b40c93cecfc338a._p1_.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.gkbcdn.com/s3/bn/2209/740x670-6332c3762b40c9222ca2c0d1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.gkbcdn.com/bn/2209/740x670-63244c8f2b40c94d3cdf00a6._p1_.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="https://img.gkbcdn.com/bn/2209/740x670-633265cf2b40c93cecfc3395._p1_.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="top-mid-left">
+           <p> <span>Deal Of Day :</span></p>
+              <div class="row-1">
+                
+
+              </div>
+              <div class="row-2">
+
+              </div>
+        </div>
+
+      </div>
+
+    <div class="t_cat">
+        <div>
+            <span>Trending Features</span>
+    </div>
+      <div class="trending-categories">
+       
+        <div class="">
+            <img src="https://img.gkbcdn.com/bn/2209/3d-6321b67e2b40c9137c3f2ca9._p1_.jpg" alt="">
+            <span>3D Printers &amp; Electronics</span>
+            <p>3D printers, laser engravers, video games, speakers, earphones and more electronics, up to 70% off!</p>
+
+        </div>
+        <div class="">
+            <img src="https://img.gkbcdn.com/bn/2209/3d-6321b67e2b40c9137c3f2ca9._p1_.jpg" alt="">
+            <span>3D Printers &amp; Electronics</span>
+            <p>3D printers, laser engravers, video games, speakers, earphones and more electronics, up to 70% off!</p>
+
+        </div>
+        <div class="">
+            <img src="https://img.gkbcdn.com/bn/2209/3d-6321b67e2b40c9137c3f2ca9._p1_.jpg" alt="">
+            <span>3D Printers &amp; Electronics</span>
+            <p>3D printers, laser engravers, video games, speakers, earphones and more electronics, up to 70% off!</p>
+
+        </div>
+
+      </div>
+    </div>
+   
+    <div class="new-for-you">
+      <p><span>New For You</span></p>
+      <div class="caro">
+      <div class="new-4-you">
+          <div>
+            <img src="https://img.gkbcdn.com/bn/2207/276-62c812d72b40c929e83fbc42._p1_.jpg" alt="">
+          </div>
+          
+
+      </div>
+      <div class="carusel">
+
+        <div>
+            <img src="https://img.gkbcdn.com/p/2022-09-12/LOKMAT-APPLLP-9-Android-Smartwatch-516999-0._w280_p1_.jpg" alt="">
+            <span></span>
+            <p></p>
+            <span></span>
+    
+        </div>
+        <div>
+            <img src="https://img.gkbcdn.com/p/2022-09-12/LOKMAT-APPLLP-9-Android-Smartwatch-516999-0._w280_p1_.jpg" alt="">
+            <span></span>
+            <p></p>
+            <span></span>
+    
+        </div>
+        <div>
+            <img src="https://img.gkbcdn.com/p/2022-09-12/LOKMAT-APPLLP-9-Android-Smartwatch-516999-0._w280_p1_.jpg" alt="">
+            <span></span>
+            <p></p>
+            <span></span>
+    
+        </div>
+      </div>
+    </div>
+
+      
+
+    </div>
+
+
+    <div>
+
+    </div>
+
+    <script type="module" src="./day-3-js/mid.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
+

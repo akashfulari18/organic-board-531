@@ -1,0 +1,102 @@
+
+        .top-mid{
+            height: auto;
+            width: 80%;
+            /* border: 1px solid red; */
+            margin:auto;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .top-mid>div{
+              margin: 1%;
+              height: auto;
+              width: 50%;
+              /* border: 1px solid blue; */
+            }
+            
+            .top-mid-left>div{
+                /* margin: auto; */
+                height: 45%;
+                width:100%;
+                /* padding: 10px; */
+                display: flex;
+                text-align: left;
+                /* border: 1px solid rgb(33, 33, 39); */
+                justify-content: space-between;
+                
+            }
+            .top-mid-left>.row-1 ,.top-mid-left>.row-2{
+            /* margin: auto; */
+            display: flex;
+        }
+        .top-mid-left>.row-1>div,.top-mid-left>.row-2>div{
+            height: auto;
+            width: 23%;
+           /* text-align: left; */
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           padding: 2%;
+           margin:10px
+        }
+
+        .row-1>div>h5,.row-2>div>h5{
+            padding-top: 1%;
+                background-color: red;
+                border-radius: 30px;
+                text-align: center;
+                color: white;
+            
+        }
+
+        .row-1>div>img,.row-2>div>img{
+            margin-bottom: 3%;
+        }
+
+
+        .top-mid-left>p>span{
+            margin: 3%;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* trending section */
+
+        .trending-categories{
+            height: auto;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid red; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 1%;
+        }
+        .trending-categories>div{
+            height: auto;
+            width: 100%;
+            margin: auto;
+            /* border: 1px solid red; */
+        }
+    
+    .trending-categories>div>span{
+        font-weight: bold;
+        margin-top: 3%;
+    }
+    .trending-categories>div>span ,.trending-categories>div>p{
+       padding-left: 3%;
+       
+    }
+    .trending-categories>div>img{
+       height: 70%;
+       width: 100%;
+       
+    }
+    .t_cat>div>span{
+        margin-left: 10%;
+        font-weight: bold;
+        font-size: 30px;
+    
+    }
+
+
+    /* new for you */
+    
