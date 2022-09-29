@@ -58,3 +58,40 @@ for(let i=0;i<4;i++){
     
 }
 }
+
+
+import midCarousel from "../images_for_carousel.json" assert {type:"json"}
+
+console.log(midCarousel)
+
+display(midCarousel)
+
+function display(data){
+    data.forEach(el => {
+     console.log(el)
+
+        let mainDiv=document.createElement("div")
+
+     
+
+        let subDiv_1 =document.createElement("img")
+        subDiv_1.src=el.image1
+
+        let prod=document.createElement("p")  
+        prod.innerText=el.info
+
+        let price=document.createElement("span")
+        price.innerText= "₹"+el.price
+        price.style.fontWeight="bold"
+        
+        
+
+      
+        mainDiv.append(subDiv_1,prod,price)
+
+        document.querySelector(".carusel").append(mainDiv)
+
+        
+    });
+}
+
