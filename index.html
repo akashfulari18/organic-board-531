@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,60 +8,75 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/home.css">
-   
+    <!-- <link rel="stylesheet" href="./css/home.css"> -->
+    <link rel="stylesheet" href="./day-3-css/mid.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <link rel="stylesheet" href="./css/css/all.min.css"> -->
 </head>
+
 <body>
-      <div id="container" >
+    <div id="container">
         <div id="top-img">
             <img src="./img/top-Img.jpg" alt="">
-           <p><i class="fa-solid fa-xmark"></i></p> 
+            <p><i class="fa-solid fa-xmark"></i></p>
         </div>
-        <div id="head-top" >
-            <div> 
-               
-                 <p onmouseover="saveBig(this)" onmouseout="hideBig(this)" ><i class="fa-solid fa-mobile-screen-button"></i> <span> Save BIG with our app!</span></p> 
-               <div id="saveBig">
-                  <div class="in-save">
-                    <span>Get Exclusive app deals and Discount,download our app & Save</span>
-                    <div class="in-save-2">
-                        <div>
-                            <img src="//content1.geekbuying.com/V1.4/en/images/index_images/android_app.png" alt="">
-                        </div>
-                        <div class="saveImg">
-                            <div>
-                                <img src="//content1.geekbuying.com/V1.4/en/images/index_images/app_store.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="//content1.geekbuying.com/V1.4/en/images/index_images/google_play.jpg" alt="">
-                            </div>
-                            <div>
-                                <img src="//content1.geekbuying.com/V1.4/en/images/index_images/gallery.jpg" alt="">
-                            </div>
-
-                        </div>
-
-                    </div>
-                  </div>
-               </div>
-            </div>
-            
+        <div id="head-top">
             <div>
-                 <p><span> Language</span></p>
-                 
-                   <div>
 
-                   </div>
-             </div>
-            <div> <p><span> Support Center</span></p>
-              
+                <p onmouseover="saveBig(this)" onmouseout="hideBig(this)" onclick="handlechnage()"><i
+                        class="fa-solid fa-mobile-screen-button"></i> <span> Save BIG with our app!</span></p>
+                <div id="saveBig">
+                    <div class="in-save">
+                        <span>Get Exclusive app deals and Discount,download our app & Save</span>
+                        <div class="in-save-2">
+                            <div>
+                                <img src="//content1.geekbuying.com/V1.4/en/images/index_images/android_app.png" alt="">
+                            </div>
+                            <div class="saveImg">
+                                <div>
+                                    <img src="//content1.geekbuying.com/V1.4/en/images/index_images/app_store.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img src="//content1.geekbuying.com/V1.4/en/images/index_images/google_play.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <img src="//content1.geekbuying.com/V1.4/en/images/index_images/gallery.jpg" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
+            <div>
+                <p><span> Language</span></p>
+
+                <div>
+
+                </div>
+            </div>
+            <div>
+                <p><span> Support Center</span></p>
+
+            </div>
+
 
         </div>
         <div id="head-middle">
@@ -70,42 +86,43 @@
             <div class="head-search">
                 <div class="search-category">
                     All Categories
-                    <span  class="fa-solid fa-caret-down"></span> 
+                    <span class="fa-solid fa-caret-down"></span>
                 </div>
                 <div class="search_input">
-                    
-                    <input type="text" name="" id="" placeholder="search here" >
+
+                    <input type="text" name="" id="" placeholder="search here">
                     <span class="fa-solid fa-magnifying-glass icon_search"></span>
                     <!-- <i class="fa-solid fa-magnifying-glass icon_search"></i> -->
                 </div>
-              
+
                 <div class="key search"></div>
             </div>
-            
+
             <div class="head_user">
-                   <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)">
-                     <span class="fa-solid fa-user"></span>
-                       <span >SignIn</span> 
-                    </div>
-                    <div  id="saveBig1" style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;">
-                        this is tooltip
-                    </div>
+                <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)">
+                    <span class="fa-solid fa-user"></span>
+                    <span>SignIn</span>
+                </div>
+                <div id="saveBig1"
+                    style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;">
+                    this is tooltip
+                </div>
             </div>
-            
+
             <div class="cart">
                 <div class="carts">
                     <div>
                         <i class="fa-solid fa-cart-shopping"></i>
-                        
+
 
                     </div>
-                    
+
                 </div>
 
             </div>
-            
-                
-            
+
+
+
         </div>
         <div id="head-bottom">
             <div><a href="#">New</a></div>
@@ -119,10 +136,576 @@
         </div>
 
 
+    </div>
+
+
+    <!-- middle part -->
+
+
+    <div class="top-mid">
+        <div class="top-mid-right">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://img.gkbcdn.com/bn/2209/740x670-633264402b40c93cecfc338a._p1_.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.gkbcdn.com/s3/bn/2209/740x670-6332c3762b40c9222ca2c0d1.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://img.gkbcdn.com/bn/2209/740x670-63244c8f2b40c94d3cdf00a6._p1_.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="https://img.gkbcdn.com/bn/2209/740x670-633265cf2b40c93cecfc3395._p1_.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-      
-    
-        <div id="footer">
+        <div class="top-mid-left">
+            <p> <span>Deal Of Day :</span></p>
+            <div class="row-1">
+
+
+            </div>
+            <div class="row-2">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="t_cat">
+        <div>
+            <span>Trending Features</span>
+        </div>
+        <div class="trending-categories">
+
+            <div class="">
+                <img src="https://img.gkbcdn.com/bn/2209/3d-6321b67e2b40c9137c3f2ca9._p1_.jpg" alt="">
+                <span>3D Printers &amp; Electronics</span>
+                <p>3D printers, laser engravers, video games, speakers, earphones and more electronics, up to 70% off!
+                </p>
+                <span></span>
+
+            </div>
+            <div class="">
+                <img src="//img.gkbcdn.com/bn/2209/1-6321b33f2b40c9137c3f2ca7._p1_.jpg" alt="">
+                <span>Smart Home &amp; Garden</span>
+                <p>Smart cleaning robots and vacuums, kitchen supplies, living room furniture, patio &amp; garden
+                    supplies, up to 60% off!</p>
+
+            </div>
+            <div class="">
+                <img src="//img.gkbcdn.com/bn/2209/12-6321b5fe2b40c9137c3f2ca8._p1_.jpg" alt="">
+                <span>E-transport &amp; Outdoor</span>
+                <p>Electric bikes, electric scooters, portable generators, and more outdoor gear, save $50 now!</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="new-for-you">
+        <p><span>New For You</span></p>
+
+        <div class="carusel">
+        </div>
+    </div>
+
+
+    <div>
+        <div class="main_enjoy main_bottom">
+            <div class="main_top">
+                <span class="main_title">Enjoy Life</span>
+            </div>
+            <div class="enjoy_products">
+                <div class="enjoy_f_item">
+                    <a class="item_img icon-geekbuy_logo"
+                        href="https://www.geekbuying.com/category/Outdoor-Generators---Portable-Power-1279/"
+                        data-id="5405" data-name="Outdoor Generators" onclick="clickenjoylifebanner(this)">
+                        <img class="lazy_img" src="//img.gkbcdn.com/bn/2209/500x632-63326e5e2b40c9222cacb303._p1_.jpg"
+                            data-original="//img.gkbcdn.com/s3/bn/2209/500x632-63326e5e2b40c9222cacb303.jpg">
+                    </a>
+                </div>
+                <div class="enjoy_item_all">
+
+                    <div class="enjoy_list">
+                        <span class="enjoy_title" title="Go outside for fun and health">Go outside for fun and
+                            health</span>
+                        <div class="enjoy_images">
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/category/Electric-Scooters-2080/"
+                                    class="enjoy_images_link" title="Premium e-mobility" data-id="5413"
+                                    data-name="Go outside for fun and health" onclick="clickenjoyrightBanner(this,0,1)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2107-63326fb32b40c9222cacb304._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2107-63326fb32b40c9222cacb304.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/category/Electric-Scooters-2080/"
+                                    title="Premium e-mobility" onclick="clickenjoyrightBanner(this,0,1)">Premium
+                                    e-mobility</a>
+                            </div>
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/topic/good-choice-for-city-commuting-13388/"
+                                    class="enjoy_images_link" title="Cost-effective commuting" data-id="5099"
+                                    data-name="Go outside for fun and health" onclick="clickenjoyrightBanner(this,1,1)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2205/210x2104-62902c152b40c91cb09e7ada._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2205/210x2104-62902c152b40c91cb09e7ada.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/topic/good-choice-for-city-commuting-13388/"
+                                    title="Cost-effective commuting"
+                                    onclick="clickenjoyrightBanner(this,1,1)">Cost-effective commuting</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enjoy_list">
+                        <span class="enjoy_title" title="Unleash maximum productivity">Unleash maximum
+                            productivity</span>
+                        <div class="enjoy_images">
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/category/Laptops-1974/" class="enjoy_images_link"
+                                    title="Get the laptops you need" data-id="5414"
+                                    data-name="Unleash maximum productivity" onclick="clickenjoyrightBanner(this,0,2)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2106-633270272b40c9222cacb305._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2106-633270272b40c9222cacb305.jpg ">
+                                </a>
+                                <a class="enjoy_images_title" href="https://www.geekbuying.com/category/Laptops-1974/"
+                                    title="Get the laptops you need" onclick="clickenjoyrightBanner(this,0,2)">Get the
+                                    laptops you need</a>
+                            </div>
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/category/Office-Furniture-2158/"
+                                    class="enjoy_images_link" title="Create your workspace" data-id="5415"
+                                    data-name="Unleash maximum productivity" onclick="clickenjoyrightBanner(this,1,2)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2101-6332707e2b40c9222cacb306._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2101-6332707e2b40c9222cacb306.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/category/Office-Furniture-2158/"
+                                    title="Create your workspace" onclick="clickenjoyrightBanner(this,1,2)">Create your
+                                    workspace</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enjoy_list">
+                        <span class="enjoy_title" title="Easy &amp; efficient home solutions">Easy &amp; efficient home
+                            solutions</span>
+                        <div class="enjoy_images">
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/category/Robot-Vacuum-Cleaners-1972/"
+                                    class="enjoy_images_link" title="Smart tech for cleaning" data-id="5416"
+                                    data-name="Easy &amp; efficient home solutions"
+                                    onclick="clickenjoyrightBanner(this,0,3)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2102-633270c32b40c9222cacb307._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2102-633270c32b40c9222cacb307.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/category/Robot-Vacuum-Cleaners-1972/"
+                                    title="Smart tech for cleaning" onclick="clickenjoyrightBanner(this,0,3)">Smart tech
+                                    for cleaning</a>
+                            </div>
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/search?keyword=cat%20toilet"
+                                    class="enjoy_images_link" title="Easy pet cleanup" data-id="5417"
+                                    data-name="Easy &amp; efficient home solutions"
+                                    onclick="clickenjoyrightBanner(this,1,3)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210-633271172b40c9222cacb308._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210-633271172b40c9222cacb308.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/search?keyword=cat%20toilet"
+                                    title="Easy pet cleanup" onclick="clickenjoyrightBanner(this,1,3)">Easy pet
+                                    cleanup</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enjoy_list">
+                        <span class="enjoy_title" title="Let's play together">Let's play together</span>
+                        <div class="enjoy_images">
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/category/Handheld-Game-Consoles-1830/1-40-3-0-0-0-grid-0-ALL-0.html"
+                                    class="enjoy_images_link" title="Game consoles" data-id="5419"
+                                    data-name="Let's play together" onclick="clickenjoyrightBanner(this,0,4)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2105-633272852b40c9222cacb30a._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2105-633272852b40c9222cacb30a.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/category/Handheld-Game-Consoles-1830/1-40-3-0-0-0-grid-0-ALL-0.html"
+                                    title="Game consoles" onclick="clickenjoyrightBanner(this,0,4)"> Game consoles</a>
+                            </div>
+                            <div class="enjoy_images_li">
+                                <a href="https://www.geekbuying.com/Search?keyword=tronsmart+speaker&amp;sort=1"
+                                    class="enjoy_images_link" title="Portable outdoor speakers" data-id="5418"
+                                    data-name="Let's play together" onclick="clickenjoyrightBanner(this,1,4)">
+                                    <img class="lazy_img"
+                                        src="//img.gkbcdn.com/bn/2209/210x2104-633272352b40c9222cacb309._p1_.jpg "
+                                        data-original="//img.gkbcdn.com/s3/bn/2209/210x2104-633272352b40c9222cacb309.jpg ">
+                                </a>
+                                <a class="enjoy_images_title"
+                                    href="https://www.geekbuying.com/Search?keyword=tronsmart+speaker&amp;sort=1"
+                                    title="Portable outdoor speakers" onclick="clickenjoyrightBanner(this,1,4)">
+                                    Portable outdoor speakers</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="best_sellers">
+        <span class="best">Best Sellers</span>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- <h2>Featured <b>Products</b></h2> -->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2018-11-09/xiaomi-airdots-tws-wireless-bluetooth-earphone-white-1574132356441._w280_p1_.jpg"
+                                                    class="img-fluid" alt="">
+                                            </div>
+
+                                            <div class="thumb-content">
+                                                <h4>Apple iPad</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <p class="item-price"><strike>$400.00</strike> <b>$369.00</b></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2020-03-27/Enchen-Hummingbird-Electric-Hair-Clipper-Black-900148-._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Headphone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Sony Headphone</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <p class="item-price"><strike>$25.00</strike> <b>$23.99</b></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2019-10-07/xiaomi-air-2-bluetooth-5-0-tws-earphone--ir-sensor-lhdc-stereo-1574132283996._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Macbook Air</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p class="item-price"><strike>$899.00</strike> <b>$649.00</b></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2018-04-13/logitech-c930e-1080p-hd-video-webcam-90-degree-extended-view-1571993532041._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Nikon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Nikon DSLR</h4>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <p class="item-price"><strike>$315.00</strike> <b>$250.00</b></p>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2022-03-09/Powkiddy-V90-Flip-Game-Pocket-Console-Black-497449-0._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Play Station">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Sony Play Station</h4>
+                                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2019-10-28/enchen-blackstone-3d-smart-electric-shaver-black-1574132742777._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Macbook">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Macbook Pro</h4>
+                                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2019-02-28/xiaomi-wireless-car-charger-20w-power-blcak-1571991489443._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Speaker">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Bose Speaker</h4>
+                                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2022-01-22/xiaomi-yeelight-ylyd01yl-led-sensor-night-light-white-6119fe-1642815122068._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Galaxy">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Samsung Galaxy S8</h4>
+                                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2021-01-14/MECOOL-KM6-Deluxe-4GB-64GB-Android-TV-10-0-TV-BOX-428277-0._w280_p1_.jpg"
+                                                    class="img-fluid" alt="iPhone">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Apple iPhone</h4>
+                                                <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2022-03-14/Anbernic-RG351M-Portable-Game-Player-64GB-Space-Gray-497757-4._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Canon">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Canon DSLR</h4>
+                                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2020-05-12/GameSir-T4-Pro-Bluetooth---2-4GHz-Wireless-Game-Controller-Black-904006-._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Pixel">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Google Pixel</h4>
+                                                <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumb-wrapper">
+                                            <span class="wish-icon"><i class="fa fa-heart-o"></i></span>
+                                            <div class="img-box">
+                                                <img src="https://img.gkbcdn.com/p/2022-03-09/POWKIDDY-RGB10-Max2-Handheld-Game-Console-256GB-White-497439-0._w280_p1_.jpg"
+                                                    class="img-fluid" alt="Watch">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Apple Watch</h4>
+                                                <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+                                                <div class="star-rating">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                    </ul>
+                                                </div>
+                                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="footer">
         <div class="foot_ascendancy">
             <div class="ascendancy_content wrap_w">
                 <span class="ascendancy_text">Why buy from geekbuying?</span>
@@ -137,17 +720,18 @@
                         <p><i class="fa-solid fa-wallet fa-2x"></i></p>
                         <a href="https://www.geekbuying.com/help/payment_and_shipping/methods"></a>
                         <strong class="ascendancy_title">Easy &amp; secure payments</strong>
-                        <p class="ascendancy_describe">Pay directly via PayPal or Klarna among other payment options.</p>
+                        <p class="ascendancy_describe">Pay directly via PayPal or Klarna among other payment options.
+                        </p>
                     </div>
                     <div class="ascendancy_list">
-                        <p><i class="fa-solid fa-truck fa-2x" ></i></p>
+                        <p><i class="fa-solid fa-truck fa-2x"></i></p>
                         <a href="https://www.geekbuying.com/help/about/geekbuying"></a>
                         <strong class="ascendancy_title">Local stock &amp; fast shipping</strong>
                         <p class="ascendancy_describe">Buy from local stock and ship within 48-hour.</p>
                     </div>
                     <div class="ascendancy_list">
                         <p><i class="fa-solid fa-headphones fa-2x"></i></p>
-                        <a  href="https://www.geekbuying.com/help/about/address"></a>
+                        <a href="https://www.geekbuying.com/help/about/address"></a>
                         <strong class="ascendancy_title">Customer support</strong>
                         <p class="ascendancy_describe">24-hour customer support for all your queries.</p>
                     </div>
@@ -159,8 +743,9 @@
             <div class="subscribers">
 
                 <form action="" class="subscribe_content">
-                    <input type="email" name="" id="email" class="subscribe_text" placeholder="Enter email to get a 5% off coupon">
-                    <input type="submit" value="Subscribe" id="sendMail" class="subscribe_btn" >
+                    <input type="email" name="" id="email" class="subscribe_text"
+                        placeholder="Enter email to get a 5% off coupon">
+                    <input type="submit" value="Subscribe" id="sendMail" class="subscribe_btn">
                 </form>
             </div>
 
@@ -175,9 +760,9 @@
                     <a href="">Contact Us</a>
                     <a href="">FAQ's</a>
                     <a href="">Sitemap</a>
-                  </div>
+                </div>
                 <div class="help_list">
-                     <strong>Support</strong>
+                    <strong>Support</strong>
                     <a href="">What Geeks</a>
                     <a href="">Shipping Guide</a>
                     <a href="">Payment Infomration</a>
@@ -185,68 +770,95 @@
                     <a href="">Drop Shipping</a>
                     <a href="">Blog</a>
                     <a href="">Affiliates</a>
-                  </div>
+                </div>
                 <div class="help_list">
-                     <strong>Policies</strong>
+                    <strong>Policies</strong>
                     <a href="">Terms & Condition</a>
                     <a href="">Return Policy</a>
                     <a href="">Privacy</a>
                     <a href="">Declarations</a>
                     <a href="">Customs</a>
-                  </div>
-              </div>
-                <div class="help_app">
-            
-                <div class="help_outer">
-                <div class="app_download">
-                    <strong>Download The App</strong>
-                    <span class="app_android">
-                        <img src="//content1.geekbuying.com/V1.4/en/images/index_images/android_app.png">
-                    </span>
                 </div>
-               
+            </div>
+            <div class="help_app">
+
+                <div class="help_outer">
+                    <div class="app_download">
+                        <strong>Download The App</strong>
+                        <span class="app_android">
+                            <img src="//content1.geekbuying.com/V1.4/en/images/index_images/android_app.png">
+                        </span>
+                    </div>
+
                 </div>
                 <div class="app_right">
                     <div class="app_icon">
                         <a class="app_store" target="_blank" rel="nofollow" href="https://geekbuying.app.link/pcwebios">
                             <img src="//content1.geekbuying.com/V1.4/en/images/index_images/app_store.jpg">
                         </a>
-                        <a class="googlplay" target="_blank" rel="nofollow" href="https://geekbuying.app.link/pcwebandroid">
+                        <a class="googlplay" target="_blank" rel="nofollow"
+                            href="https://geekbuying.app.link/pcwebandroid">
                             <img src="//content1.geekbuying.com/V1.4/en/images/index_images/google_play.jpg">
                         </a>
-                        <a class="gallery" target="_blank" rel="nofollow" href="https://appgallery.huawei.com/app/C105563881">
+                        <a class="gallery" target="_blank" rel="nofollow"
+                            href="https://appgallery.huawei.com/app/C105563881">
                             <img src="//content1.geekbuying.com/V1.4/en/images/index_images/gallery.jpg">
                         </a>
                     </div>
                     <div class="app_connect">
-                            
-                            <span class="fa-solid fa-headset"><a href=""  > 
-                            Live Chat </a></span> 
-                            <span class="fa-solid fa-ticket"><a href="" > 
-                                Ticket here </a></span> 
-                            <span class="fa-solid fa-envelope"><a href=""  > 
-                                XYZ@uying.com </a></span> 
+
+                        <span class="fa-solid fa-headset"><a href="">
+                                Live Chat </a></span>
+                        <span class="fa-solid fa-ticket"><a href="">
+                                Ticket here </a></span>
+                        <span class="fa-solid fa-envelope"><a href="">
+                                XYZ@uying.com </a></span>
                     </div>
 
                 </div>
                 <div class="help_share">
 
                 </div>
-             </div>
-            </div>
-            <div class="foot_payment">
-                <div class="foot_icon">
-                    <img src="https://content1.geekbuying.com/V1.4/en/images/indexV7/foot_icon.png" alt="">
-                </div>
-            </div>
-
-            <div class="foot_copyright">
-                Copyright © 2012-2022 GeekBuying.com. All rights reserved.
             </div>
         </div>
+        <div class="foot_payment">
+            <div class="foot_icon">
+                <img src="https://content1.geekbuying.com/V1.4/en/images/indexV7/foot_icon.png" alt="">
+            </div>
+        </div>
+
+        <div class="foot_copyright">
+            Copyright © 2012-2022 GeekBuying.com. All rights reserved.
+        </div>
+    </div>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 <script src="../js/navbar.js"></script>
-</html>
+
+<!-- middle part js -->
+
+<script type="module" src="./day-3-js/mid.js"></script>
+<script type="text/javascript" src="./day-3-js/navbar.js"></script>
+
 <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+<script type="module" src="./images_for_carousel.json"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".wish-icon i").click(function () {
+            $(this).toggleClass("fa-heart fa-heart-o");
+        });
+    });
+
+
+</script>
+
+</html>
