@@ -1,97 +1,81 @@
 "use strict";
 
-import users from  '../MOCK_DATA.json' assert {type:"json"}
+import users from "../MOCK_DATA.json" assert { type: "json" };
 
-console.log(users) 
-disp(users)
-function disp(data){
-for(let i=0;i<4;i++){
-    let div2=document.createElement("div")
-        
-        let img=document.createElement("img")
-        img.src=data[i].image
-        img.style.height="100px"
-        img.style.width="100px"
+console.log(users);
+disp(users);
+function disp(data) {
+  for (let i = 0; i < 4; i++) {
+    let div2 = document.createElement("div");
 
-        let percentOff=document.createElement("h5")  
-        percentOff.innerText=data[i].percentOff +"% OFF"
+    let img = document.createElement("img");
+    img.src = data[i].image;
+    img.style.height = "100px";
+    img.style.width = "100px";
 
-        let price=document.createElement("h4")
-        price.innerText= "₹"+data[i].price
-      
-        let stk=document.createElement("h6")   
-        stk.innerText="₹"+data[i].stkPrice
-        stk.style.textDecoration="line-through"
+    let percentOff = document.createElement("h5");
+    percentOff.innerText = data[i].percentOff + "% OFF";
 
-      
-        div2.append(img,percentOff,price,stk)
-        document.querySelector(".row-2").append(div2)
-       
+    let price = document.createElement("h4");
+    price.innerText = "₹" + data[i].price;
 
+    let stk = document.createElement("h6");
+    stk.innerText = "₹" + data[i].stkPrice;
+    stk.style.textDecoration = "line-through";
 
-    
-}
-for(let i=0;i<4;i++){
-    let div1=document.createElement("div")
-    
-        
-        let img=document.createElement("img")
-        img.src=data[i].image
-        img.style.height="100px"
-        img.style.width="100px"
+    div2.append(img, percentOff, price, stk);
+    document.querySelector(".row-2").append(div2);
+  }
+  for (let i = 0; i < 4; i++) {
+    let div1 = document.createElement("div");
 
-        let percentOff=document.createElement("h5")  
-        percentOff.innerText=data[i].percentOff +"% OFF"
+    let img = document.createElement("img");
+    img.src = data[i].image;
+    img.style.height = "100px";
+    img.style.width = "100px";
 
-        let price=document.createElement("h4")
-        price.innerText= "₹"+data[i].price
-      
-        let stk=document.createElement("h6")   
-        stk.innerText="₹"+data[i].stkPrice
-        stk.style.textDecoration="line-through"
+    let percentOff = document.createElement("h5");
+    percentOff.innerText = data[i].percentOff + "% OFF";
 
-        div1.append(img,percentOff,price,stk)
-        
-        document.querySelector(".row-1").append(div1)
+    let price = document.createElement("h4");
+    price.innerText = "₹" + data[i].price;
 
+    let stk = document.createElement("h6");
+    stk.innerText = "₹" + data[i].stkPrice;
+    stk.style.textDecoration = "line-through";
 
-    
-}
+    div1.append(img, percentOff, price, stk);
+
+    document.querySelector(".row-1").append(div1);
+  }
 }
 
+import midCarousel from "../images_for_carousel.json" assert { type: "json" };
 
-import midCarousel from "../images_for_carousel.json" assert {type:"json"}
+console.log(midCarousel);
 
-console.log(midCarousel)
+display(midCarousel);
 
-display(midCarousel)
+function display(data) {
+  data.forEach((el) => {
+    console.log(el);
 
-function display(data){
-    data.forEach(el => {
-     console.log(el)
+    let mainDiv = document.createElement("div");
 
-        let mainDiv=document.createElement("div")
+    let subDiv_1 = document.createElement("img");
+    subDiv_1.src = el.image1;
 
-     
+    let prod = document.createElement("p");
+    prod.innerText = el.info;
 
-        let subDiv_1 =document.createElement("img")
-        subDiv_1.src=el.image1
+    let price = document.createElement("span");
+    price.innerText = "₹" + el.price;
+    price.style.fontWeight = "bold";
 
-        let prod=document.createElement("p")  
-        prod.innerText=el.info
+    mainDiv.append(subDiv_1, prod, price);
 
-        let price=document.createElement("span")
-        price.innerText= "₹"+el.price
-        price.style.fontWeight="bold"
-        
-        
-
-      
-        mainDiv.append(subDiv_1,prod,price)
-
-        document.querySelector(".carusel").append(mainDiv)
-
-        
-    });
+    document.querySelector(".carusel").append(mainDiv);
+  });
 }
 
+//

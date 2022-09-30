@@ -10,9 +10,3 @@ function saveBig1() {
 function hideBig1() {
   document.getElementById("saveBig1").style.visibility = "hidden";
 }
-
-
-
-
-
-// 

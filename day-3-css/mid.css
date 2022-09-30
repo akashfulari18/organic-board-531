@@ -9,7 +9,7 @@
 
         }
         .top-mid>div{
-              margin: 1%;
+              /* margin: 1%; */
               height: auto;
               width: 50%;
               /* border: 1px solid blue; */
@@ -257,7 +257,7 @@
 }
     .carousel {
         margin: 50px auto;
-        padding: 0 70px;
+        padding: 0 0px;
     }
 
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
