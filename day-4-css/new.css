@@ -1,0 +1,349 @@
+.new-product > div {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.new-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+.inner-new {
+  height: 500px;
+  width: 88%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.inner-new > .right-menu {
+  height: 500px;
+  width: 20%;
+  margin: auto;
+  /* border: 1px solid rgb(85, 255, 0); */
+}
+.inner-new > .left-prod {
+  height: 500px;
+  width: 78%;
+  margin: auto;
+  /* border: 1px solid rgb(47, 0, 255); */
+}
+
+.cat {
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+}
+.cat > span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.cat > p {
+  line-height: 5px;
+}
+.cat > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.filter-bar {
+  height: 300px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 10px 0 10px 5px;
+  border-radius: 5px;
+  /* padding-right: ; */
+}
+.new-product {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.left-prod {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new-product > div {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  position: relative;
+  background-color: #fff;
+}
+.new-product > div > img + div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* background-color: #fff; */
+}
+
+.new-product > div > img + div > img {
+  height: 100px;
+  width: 100px;
+}
+.new-product > div > img {
+  /* border: 1px solid black; */
+  height: 175px;
+  width: 90%;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.new-product > div > img + p {
+  /* border: 1px solid black; */
+
+  /* border: 1px solid red; */
+  margin: 3px;
+  padding: 5px;
+}
+
+.new-product div + p + span,
+.new-product div + p {
+  /* background-color: red; */
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+
+/* top-left search  */
+.warp_bg .attribute_option {
+  background-color: #fff;
+  padding: 16px 0 16px 15px;
+}
+.filter_list {
+  margin-bottom: 3px;
+  position: relative;
+}
+.filter_list .filter_title {
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+  min-width: 100px;
+  float: left;
+}
+
+.sortbt,
+.sort_tab,
+.sort_date {
+  display: inline-block;
+}
+.sort_tab .filterBtns li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+  border: solid 1px #e0e6ef;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 6px;
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+}
+
+.sort_tab .filterBtns a {
+  color: #333;
+  font-size: 14px;
+}
+
+.filter_ware {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  margin-left: 38px;
+}
+.filter_ware .awareh {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 4px;
+}
+.filter_ware span {
+  font-size: 14px;
+  color: #333;
+}
+.filter_ware .ship_title {
+  width: 178px;
+  padding-right: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 28px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #666;
+  text-indent: 10px;
+  vertical-align: middle;
+  font-style: normal;
+  line-height: 28px;
+  display: inline-block;
+}
+
+.filter_ware .ulwareh {
+  display: none;
+  width: 198px;
+  position: absolute;
+  border: 1px solid #eee;
+  left: 0;
+  padding-top: 24px;
+  top: 0;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+  z-index: -1;
+}
+.filter_ware .ulwareh li {
+  padding-left: 10px;
+  width: 186px;
+  color: #666;
+  font-size: 12px;
+  line-height: 34px;
+  height: 34px;
+  vertical-align: middle;
+  overflow: hidden;
+  display: inherit;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.flagli_img {
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-indent: 0;
+  margin-right: 6px;
+  overflow: hidden;
+  display: inline-block;
+}
+.flagli_img img {
+  width: 100%;
+  height: 20px;
+}
+
+.filter_check {
+  margin: 0 3px;
+}
+
+.filter_check {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 16px;
+  height: 20px;
+  line-height: 20px;
+}
+.filter_check a {
+  font-size: 13px;
+  color: #333;
+  display: inline-block;
+  text-decoration: none;
+}
+.filter_check {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 16px;
+  height: 20px;
+  line-height: 20px;
+}
+#priceSearch {
+  display: inline-block;
+  width: auto;
+}
+#price-filter {
+  font-size: 14px;
+  color: #333;
+  padding: 0;
+}
+#price-filter input[type="text"] {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  border: solid 1px #e0e6ef;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 4px;
+}
+input {
+  outline: none;
+  border: none;
+}
+#price-filter input[type="submit"] {
+  background: #06f;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+.filter_list:last-child {
+  margin-bottom: 0;
+}
+.filter_list {
+  margin-bottom: 3px;
+  position: relative;
+}
+.filter_list .filter_title {
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+  min-width: 100px;
+  float: left;
+}
+.sort_tab .filterBtns li.current {
+  border-color: #06f;
+  color: #06f;
+}
+.sort_tab .filterBtns li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+  border: solid 1px #e0e6ef;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 6px;
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+}
+
+.filter101 {
+  margin-top: 17px;
+}
+
+/* star class */
+#star {
+  height: 35px;
+  width: 100px;
+  margin: 0 10px;
+}
+*{
+    text-decoration: none;
+}
