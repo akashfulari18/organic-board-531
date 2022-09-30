@@ -1,0 +1,85 @@
+.logo_top {
+    width: 100%;
+    height: 120px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#318FFB), to(#06f));
+    background-image: linear-gradient(to bottom, #318FFB, #06f);
+    text-align: center;
+}
+.logo_top .logo_img {
+    width: 188px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 36px;
+    margin-left: -100px;
+    z-index: 2;
+    text-indent: -999px;
+    background: url("https://content1.geekbuying.com/V1.4/en/images/indexV7/Geekbuying.png") no-repeat center;
+    background-size: 100%;
+}
+
+.login_foot {
+    text-align: center;
+    width: 100%;
+    margin-top: 36px;
+}
+
+#signIn{
+    width: 30%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 20px;
+   
+    margin-top: 50px;
+    padding-bottom: 40px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+ }
+#signIn>h1{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 15px;
+}
+form>.fnt{
+    font-size: 20px;
+    margin: 15px;
+}
+form>div>input{
+    padding: 15px;
+    width: 91%;
+    border-radius: 5px;
+    border-color: #8080802e;
+    color: #222121ee;
+}
+form>div{
+    
+    margin: 15px;
+}
+#SgnIn{
+    text-align: center;
+    margin: auto;
+}
+#SgnIn>button{
+    width: 92%;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgba(225, 217, 217, 0.477);
+    color: rgb(76, 76, 76);
+}
+form>div>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+.signup{
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./day-4-css/signUp.css">
+    <title>Sign-Up</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <div class="logo_top">
+        <a class="logo_img" href="/" target="_blank"></a>
+    </div>
+    <div class="login_foot">
+        <p>Copyright © 2012 - 2022 Geekbuying.com. All rights reserved.</p>
+    </div>
+    <div id="signUp">
+        <div class="logo">
+            <span>Create your account </span>
+           <span><a class="login_link" href="./signIn.html">Sign In</a></span>
+        </div>
+          <h1>Sign Up</h1>
+          <form action="">
+           
+            <div> 
+            <input type="text"  id="userName" placeholder="Nick name">
+            </div>
+
+            
+           <div>
+            <input type="email" id="userEmail" placeholder="Email Address">
+            </div>
+
+           <div>
+            <input type="text" id="userPass" placeholder="Password">
+           </div>
+           <!-- <div>
+            <input type="text" placeholder="Access Code">
+            <input type="hidden" placeholder="Password">
+           </div> -->
+
+           <label class="login_check" for="geek_protocol">
+            <input type="checkbox" id="geekProtocol" name="geekProtocol">
+            <span class="padd_4">
+                I agree to Geekbuying's
+                <a href="https://www.geekbuying.com/help/about/terms_of_use" target="_blank">Terms of Use</a> &amp; <a href="https://www.geekbuying.com/help/about/privacy_policy" target="_blank">Privacy Policy</a>.
+            </span>
+            <em class="error_color"></em>
+        </label>
+           <div id="Sgnup">
+            <button type="submit"  >Create Account</button>
+           </div>
+
+           
+        </form>
+    </div>
+
+
+
+    <script src="./day-4-js/signUp.js"></script>
+</body>
+</html>
+
+<!-- <script>
+    let frm=document.querySelector("form")
+frm.addEventListener("submit",getData)
+
+
+function getData(event){
+    event.preventDefault();
+
+    let userEmail=frm.userEmail.value
+    let userPass=frm.userPass.value
+
+    console.log(userEmail,userPass)
+
+}
+   
+</script> -->
