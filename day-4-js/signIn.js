@@ -11,9 +11,10 @@ function getData(event) {
 
     if (fromEmail === userEmail && fromPass === userPass) {
         alert("Login Successful")
+        window.location.href = "/organic-board-531/index.html";
 
     } else {
-        alert("login fail enter correct credencial")
+        alert("login fail enter correct credential")
     }
 
 }

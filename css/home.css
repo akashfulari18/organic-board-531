@@ -1,38 +1,33 @@
-
-
-
 /* Home SEction */
 
-#home{
-    margin: auto;
-    margin-top: 30px;
-    height: auto;
-    width: 90%;
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
+#home {
+  margin: auto;
+  margin-top: 30px;
+  height: auto;
+  width: 90%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
 }
 
-#home>div{
-    
-    height: auto;
-    width: 48%;
-    border: 1px solid green;
+#home > div {
+  height: auto;
+  width: 48%;
+  border: 1px solid green;
 }
 
-.left_product{
-    display: flex;
-    flex-direction: column;
-    
+.left_product {
+  display: flex;
+  flex-direction: column;
 }
-.left_product>div{
-    height: 300px;
-    width: 100%;
-    border:1px solid black;
-    margin-top: 1%;
-    margin-bottom: 1%;
+.left_product > div {
+  height: 300px;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
-.deals_product{
-    display: flex;
+.deals_product {
+  display: flex;
 }

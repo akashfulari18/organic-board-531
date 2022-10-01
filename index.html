@@ -28,6 +28,7 @@
 </head>
 
 <body>
+    
     <div id="container">
         <div id="top-img">
             <img src="./img/top-Img.jpg" alt="">
@@ -66,17 +67,45 @@
             </div>
 
             <div>
-                <p><span> Language</span></p>
 
-                <div>
+                <p onmouseover="saveBig3(this)"  onmouseout="hideBig3(this)" onclick="handlechnage()"> <span> Language</span></p>
+                <div id="saveBig3" >
+                    <div class="in-save"  >
+                        <span>Language</span>
+                        <div class="in-save-2"  >
+                           <a href="">Marathi</a>
+                           <a href="">Hindi</a>
+                           <a href="">English</a>
+                           <a href="">Italiano</a>
+                           <a href="">Chienese</a>
+                           <a href="">deutsch</a>
 
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
-                <p><span> Support Center</span></p>
-
+                <p onmouseover="saveBig2(this)" onmouseout="hideBig2(this)" onclick="handlechnage()"> <span>Support Center</span></p>
+                <div id="saveBig2">
+                    <div class="inner">
+                        <table>
+                            <tr>
+                                <td > <i class="fa-brands fa-rocketchat"></i></i></td>
+                                <td>Live Chat</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>  <i class="fa-solid fa-ticket"></i></td>
+                                <td>Ticket</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-circle-question"></i>5</td>
+                                <td>Help Center</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
-
 
         </div>
         <div id="head-middle">
@@ -101,7 +130,7 @@
             <div class="head_user">
                 <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)">
                     <span class="fa-solid fa-user"></span>
-                    <span>SignIn</span>
+                    <span onclick="handleSignIn()">SignIn</span>
                 </div>
                 <div id="saveBig1"
                     style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;">
@@ -125,9 +154,9 @@
 
         </div>
         <div id="head-bottom">
-            <div><a href="#">New</a></div>
-            <div><a href="#">Bestselling</a></div>
-            <div><a href="#">Brand</a></div>
+            <div><a href="./new.html">New</a></div>
+            <div><a href="./bestSelling.html">Bestselling</a></div>
+            <div><a href="">Brand</a></div>
             <div><a href="#">Clearance</a></div>
             <div><a href="#">Deals</a></div>
             <div><a href="#">Coupons</a></div>
@@ -137,11 +166,7 @@
 
 
     </div>
-
-
     <!-- middle part -->
-
-
     <div class="top-mid">
         <div class="top-mid-right">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -188,7 +213,7 @@
             </div>
         </div>
         <div class="top-mid-left">
-            <p> <span>Deal Of Day :</span></p>
+          
             <div class="row-1">
 
 
@@ -237,7 +262,6 @@
         <div class="carusel">
         </div>
     </div>
-
 
     <div>
         <div class="main_enjoy main_bottom">
@@ -704,12 +728,11 @@
 
     </div>
 
-
     <div id="footer">
         <div class="foot_ascendancy">
             <div class="ascendancy_content wrap_w">
-                <span class="ascendancy_text">Why buy from geekbuying?</span>
-                <div class="ascendancy_show">
+                <span class="ascendancy_text" onclick="handleShowVisible">Why buy from geekbuying?</span>
+                <div class="ascendancy_show" id="showElement">
                     <div class="ascendancy_list">
                         <p><i class="fa-solid fa-percent fa-2x"></i></p>
                         <a href="https://www.geekbuying.com/help/about/geekbuying"></a>
@@ -807,12 +830,12 @@
                     </div>
                     <div class="app_connect">
 
-                        <span class="fa-solid fa-headset"><a href="">
-                                Live Chat </a></span>
-                        <span class="fa-solid fa-ticket"><a href="">
-                                Ticket here </a></span>
-                        <span class="fa-solid fa-envelope"><a href="">
-                                XYZ@uying.com </a></span>
+                        <div class="fa-solid fa-headset footer_icon" ><a href="" class="ancher">
+                                Live Chat </a></div>
+                        <div class="fa-solid fa-ticket footer_icon"><a href=""  class="ancher">
+                                Ticket here </a></div>
+                        <div class="fa-solid fa-envelope footer_icon"><a href=""  class="ancher">
+                                XYZ@uying.com </a></div>
                     </div>
 
                 </div>
