@@ -37,3 +37,10 @@ function handleShowVisible() {
   // document.getElementsByClass("ascendancy_show").style.display = "flex"
 }
 
+
+
+function goHome(){
+  // console.log("home ")
+  window.location.href = "/organic-board-531/index.html";
+
+}
