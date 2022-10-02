@@ -44,3 +44,21 @@ function goHome(){
   window.location.href = "/organic-board-531/index.html";
 
 }
+
+// show categories
+
+function showCategories(){
+   if(document.getElementById("all-categories").style.visibility="hidden"
+  ){
+    document.getElementById("all-categories").style.visibility="visible"
+  }
+  
+
+}
+
+function hideCategories(){
+  if(document.getElementById("all-categories").style.visibility="visible"
+  ){
+    document.getElementById("all-categories").style.visibility="hidden"
+  }
+}
