@@ -28,7 +28,7 @@ function hideBig3() {
 
 
 function handleSignIn() {
-  window.location.href = "/organic-board-531/signIn.html";
+  window.location.href = "./signIn.html";
 }
 
 function handleShowVisible() {

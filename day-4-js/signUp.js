@@ -16,5 +16,5 @@ function submitData(event) {
 
     localStorage.setItem("sign-user", JSON.stringify(obj))
     alert("signup Successful")
-    window.location.href = "/organic-board-531/signIn.html";
+    window.location.href = "./signIn.html";
 }
