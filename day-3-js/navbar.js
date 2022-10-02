@@ -41,7 +41,7 @@ function handleShowVisible() {
 
 function goHome(){
   // console.log("home ")
-  window.location.href = "/organic-board-531/index.html";
+  window.location.href = "./index.html";
 
 }
 
