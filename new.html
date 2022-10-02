@@ -48,7 +48,7 @@
   </head>
 
   <body>
-    <div style="overflow-x: hidden;">
+    <div >
         <div id="container">
            
             <div id="head-top">
@@ -130,9 +130,19 @@
                     <img src="https://content1.geekbuying.com/V1.4/en/images/indexV7/Geekbuying.png" alt="">
                 </div>
                 <div class="head-search">
-                    <div class="search-category">
+                    <div class="search-category" onclick="showCategories()"  ondblclick="hideCategories()">
                         All Categories
                         <span class="fa-solid fa-caret-down"></span>
+    
+                        <div id="all-categories">
+                            <a href=""><p>All Categories</p></a>
+                            <a href=""><p>Smart Phone & Garden</p></a>
+                            <a href=""><p>Phones & Accessories</p></a>
+                            <a href=""><p>Computer ,Tablet Accessories</p></a>
+                            <a href=""><p>Wearable Devices</p></a>
+                            <a href=""><p>Automobiles & Motorcyles</p></a>
+                        </div>
+    
                     </div>
                     <div class="search_input">
     
@@ -145,15 +155,16 @@
                 </div>
     
                 <div class="head_user">
-                    <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)">
+                    <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)" >
                         <span class="fa-solid fa-user"></span>
                         <span onclick="handleSignIn()">SignIn</span>
                     </div>
-                    <div id="saveBig1"
-                        style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;">
-                        this is tooltip
-                    </div>
+                    <!-- <div id="saveBig1" class="in-save-big1" 
+                        style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;" >
+                      <p >this is tooltip</p>  
+                    </div> -->
                 </div>
+
     
                 <div class="cart">
                     <div class="carts">
@@ -178,7 +189,7 @@
                 <div><a href="#">Deals</a></div>
                 <div><a href="#">Coupons</a></div>
                 <div><a href="#">App Only</a></div>
-                <div><img src="//img.gkbcdn.com/s3/bn/2209/174x35b-631b1e9b2b40c9215c578605.gif" alt=""></div>
+                <!-- <div><img src="//img.gkbcdn.com/s3/bn/2209/174x35b-631b1e9b2b40c9215c578605.gif" alt=""></div> -->
             </div>
     
     
@@ -587,21 +598,19 @@
                     </div>
 
                 </div>
-                <div class="help_share">
 
-                </div>
             </div>
         </div>
         <div class="foot_payment">
-            <div class="foot_icon">
+            <!-- <div class="foot_icon">
                 <img src="https://content1.geekbuying.com/V1.4/en/images/indexV7/foot_icon.png" alt="">
-            </div>
+            </div> -->
         </div>
 
         <div class="foot_copyright">
             Copyright © 2012-2022 GeekBuying.com. All rights reserved.
         </div>
-    </div>
+      </div>
     </div>
     <script type="module" src="./day-4-js/new.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"

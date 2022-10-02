@@ -347,3 +347,43 @@ input {
 * {
   text-decoration: none;
 }
+
+
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+  .inner-new {
+    width: 95%;
+  }
+  .cat {
+    padding: 7px;
+    font-size: 14px;
+}
+
+
+.filter-bar {
+    height: auto;
+    
+}
+.new-product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.new-product > div > img {
+  /* border: 1px solid black; */
+  height: 70%;
+  width: 80%;
+  margin: 10px;
+  /* margin-bottom: 5px; */
+}
+}
+
+/* Small Screen */
+@media only screen and (min-width: 320px) and (max-width: 499px) {
+
+
+  .new-product {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}

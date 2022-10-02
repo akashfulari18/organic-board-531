@@ -8,7 +8,7 @@ function saveBig1() {
   document.getElementById("saveBig1").style.visibility = "visible";
 }
 function hideBig1() {
-  document.getElementById("saveBig1").style.visibility = "hidden";
+  document.getElementsByClassName("in-save-big1").style.visibility = "hidden";
 }
 
 function saveBig2() {

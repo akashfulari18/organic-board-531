@@ -2,7 +2,7 @@
   margin-top: 15px;
   height: auto;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .foot_ascendancy {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -81,7 +81,7 @@
 }
 
 .subscribe_btn {
-  width: 20%;
+  width: 10%;
   height: 92%;
   font-size: 16px;
   border: none;
@@ -97,7 +97,7 @@
 
 .subscribe_text {
   height: 46px;
-  width: 580px;
+  width: 40%;
   text-indent: 10px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #06f;
@@ -105,18 +105,20 @@
 }
 .subscribe_content {
   text-align: center;
-  width: 700px;
+  width: auto;
   height: 50px;
   margin: 0 auto;
   font-size: 16px;
 
   display: flex;
+  justify-content: center;
 }
 
 .foot-help {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /* margin: auto; */
 }
 .foot-help > div {
   /* border: 1px solid black; */
@@ -125,7 +127,7 @@
 
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .foot-help > div > div {
@@ -196,7 +198,7 @@
   vertical-align: top;
   margin-left: 30%;
   justify-content: center;
-  font-size: 13px;
+  font-size: 13px;padding: 10;
 }
 
 .app_connect a {
@@ -244,9 +246,138 @@
   position: relative;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 768px) {
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+  
+  .foot-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foot-help > div { 
+    width: 48%;
+   margin: auto;
+    display: flex;
+     }
+
+     .app_connect {
+      display: flex;
+      flex-direction: column;
+      vertical-align: top;
+      margin-left: 30%;
+      justify-content: center;
+      font-size: 13px;
+      padding: 10;
+  }
+  .foot-help > div > div {
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.ascendancy_show {
+  /* border: 1px solid blue; */
+  gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* justify-content: space-evenly; */
+}
+
+
+.subscribe_text {
+  height: 46px;
+  width: 60%;
+  text-indent: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #06f;
+  border-right: none;
+}
+
+.subscribe_btn {
+  width: 20%;
+  font-size: 100%;
+  
+}
 }
 
 /* Small Screen */
 @media only screen and (min-width: 320px) and (max-width: 499px) {
+  .foot-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foot-help > div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.app_connect {
+ 
+  margin-left: 0;
+  justify-content: center;
+  font-size: 13px;
+  align-items: center;
+  padding: 10;
+  margin-top: 10%;
+}
+  .foot-help > div > div {
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.ascendancy_show {
+  /* border: 1px solid blue; */
+  /* gap: 20px; */
+  display: grid;
+  grid-template-columns: auto;
+  /* justify-content: space-evenly; */
+}
+
+
+.subscribe_text {
+  height: 46px;
+  width: 60%;
+  text-indent: 10px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #06f;
+  border-right: none;
+}
+
+.subscribe_btn {
+  width: 20%;
+  font-size: 100%;
+  
+}
+
+.app_right {
+  flex-direction: column;  
+}
+.inner-new {
+  /* width: 95%; */
+  display: grid;
+}
+.inner-new > .right-menu {
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+.filter-bar {
+  height: auto;
+  width: 100%;
+  
+}
+} 

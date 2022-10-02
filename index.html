@@ -31,7 +31,7 @@
 <body>
     
     <div id="container">
-        
+       <div id="nav"> 
         <div id="head-top">
             <div>
 
@@ -136,14 +136,14 @@
             </div>
 
             <div class="head_user">
-                <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)">
+                <div class="login_user" onmouseover="saveBig1(this)" onmouseout="hideBig1(this)" >
                     <span class="fa-solid fa-user"></span>
                     <span onclick="handleSignIn()">SignIn</span>
                 </div>
-                <div id="saveBig1"
-                    style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;">
-                    this is tooltip
-                </div>
+                <!-- <div id="saveBig1" class="in-save-big1" 
+                    style="background-color: rgb(186, 47, 47);height: 100px;width: 200px;visibility: hidden;position: absolute;" >
+                  <p >this is tooltip</p>  
+                </div> -->
             </div>
 
             <div class="cart">
@@ -169,9 +169,9 @@
             <div><a href="#">Deals</a></div>
             <div><a href="#">Coupons</a></div>
             <div><a href="#">App Only</a></div>
-            <div><img src="//img.gkbcdn.com/s3/bn/2209/174x35b-631b1e9b2b40c9215c578605.gif" alt=""></div>
+            <!-- <div><img src="//img.gkbcdn.com/s3/bn/2209/174x35b-631b1e9b2b40c9215c578605.gif" alt=""></div> -->
         </div>
-
+       </div>
 
     </div>
     <!-- middle part -->
@@ -421,7 +421,7 @@
 
     <div class="best_sellers">
         <span class="best">Best Sellers</span>
-        <div class="container-xl">
+        <div class="container-xl" id="container-xl1">
             <div class="row">
                 <div class="col-md-12">
                     <!-- <h2>Featured <b>Products</b></h2> -->
@@ -783,7 +783,7 @@
         </div>
 
         <div class="foot-help">
-            <div class="help_documnet">
+            <div class="help_document">
                 <div class="help_list">
                     <strong>Help</strong>
                     <a href="">Order Status</a>
@@ -851,12 +851,13 @@
 
                 </div>
             </div>
+            
         </div>
-        <div class="foot_payment">
+        <!-- <div class="foot_payment">
             <div class="foot_icon">
                 <img src="https://content1.geekbuying.com/V1.4/en/images/indexV7/foot_icon.png" alt="">
             </div>
-        </div>
+        </div> -->
 
         <div class="foot_copyright">
             Copyright © 2012-2022 GeekBuying.com. All rights reserved.
